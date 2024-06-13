@@ -1,5 +1,0 @@
-hello world
-
-fix bug
-
-fix bug2
