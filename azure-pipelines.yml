@@ -1,11 +1,13 @@
+# azure-pipelines.yml
 trigger:
 - main
 
 pool:
-  name: 'Default' # Replace 'Default' with the name of your self-hosted agent pool
+  vmImage: 'ubuntu-latest'
 
 steps:
-- script: echo "Hello, World!"
-  displayName: 'Run Hello World Script'
+- script: echo Hello, world!
+  displayName: 'Run a one-line script'
+
 
 
